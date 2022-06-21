@@ -822,7 +822,7 @@ function install_plugin_information() {
 		echo '</p></div>';
 	} elseif ( ! $compatible_wp ) {
 		echo '<div class="notice notice-error notice-alt"><p>';
-		_e( '<strong>Error:</strong> This plugin <strong>requires a newer version of WordPress</strong>.' );
+		_e( '<strong>Error:</strong> This plugin <strong>requires a newer version of WordPress.</strong>' );
 		if ( current_user_can( 'update_core' ) ) {
 			printf(
 				/* translators: %s: URL to WordPress Updates screen. */
