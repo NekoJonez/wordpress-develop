@@ -287,7 +287,7 @@ if ( ! validate_current_theme() || isset( $_GET['broken'] ) ) {
 	<?php
 } elseif ( isset( $_GET['error'] ) && 'resuming' === $_GET['error'] ) {
 	?>
-	<div id="message6" class="error"><p><?php _e( 'Theme could not be resumed because it triggered a <strong>fatal error</strong>.' ); ?></p></div>
+	<div id="message6" class="error"><p><?php _e( 'Theme could not be resumed because it triggered a <strong>fatal error.</strong>' ); ?></p></div>
 	<?php
 } elseif ( isset( $_GET['enabled-auto-update'] ) ) {
 	?>
